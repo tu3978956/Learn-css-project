@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دورة CSS</title>
+    <style>
+        body{
+            background-image: url('bg.png');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-attachment: fixed;
+        }
+        nav{
+            background-color: #49d83c;
+            color:white;
+            position: sticky;
+            top: 0px;
+            height: 35px;
+            padding-top: 14px;
+            font-weight: bold;
+        }
+        nav ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            /*text-align: center; /* Center-align the list items */
+        }
+
+        nav ul li {
+            display: inline-block; /* Display list items in a horizontal line */
+            margin-right: 10px; /* Add spacing between list items if needed */
+        }
+       
+        #box1{
+            position: relative;
+            margin: 5% 35%;
+        }
+        #box2{
+            position: absolute;
+            top: 30%;
+            margin-right: 100px;
+            margin-top: 360px; 
+        }
+
+        
+
+        h1{
+          font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+          color: #4caab9;
+          text-align: center;
+        }
+
+        #inp{
+            background-color:#49d83c ;
+            color: white;
+            border-color: #49d83c;
+            border-radius: 10px;
+            width: 200px;
+            height: 50px;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body dir="rtl">
+        <nav>
+            <ul>
+                <li>الصفحة الرئيسية</a></li>
+                <li>من نحن</li>
+                <li>تواصل معنا</li>
+                <li>تفاصيل الدورة</li>
+            </ul>
+        </nav>
+   
+    <div id="box1"> 
+        <div id="box2">
+            <h1>دورة لتعلم CSS</h1>
+            <input type="submit" id="inp" value="انضمام">
+        </div>
+        
+    </div>
+</body>
+</html>
